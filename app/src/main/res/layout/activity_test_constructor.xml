@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal TextView"
+        android:textSize="20sp"/>
+    <TextView
+        style="@style/RedTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red style TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:textViewStyle="@style/RedTextStyle"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XML defined orangeTextView"
+        android:textSize="20sp"/>
+
+    <com.hsf.toggleview.test_constructor.CustomView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomView"
+        android:textSize="20sp"/>
+    <com.hsf.toggleview.test_constructor.CustomBlankView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomBlankView !"
+        android:textSize="20sp"/>
+    <com.hsf.toggleview.test_constructor.CustomGreenView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomGreenView !"
+        android:textSize="20sp"/>
+    <com.hsf.toggleview.test_constructor.CustomGreenView
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom styled Red TextView !"
+        android:textSize="20sp"/>
+    <!--android:textViewStyle="@style/RedTextStyle"-->
+    <com.hsf.toggleview.test_constructor.CustomGreenView
+        style="@style/RedTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom styled Red TextView !"
+        android:textSize="20sp"/>
+</LinearLayout>

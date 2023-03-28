@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".another.SwitchActivity">
+
+    <com.hsf.toggleview.another.SwitchButton
+        android:id="@+id/switchButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:borderWidth="1.8dp"
+        app:offBorderColor="@color/light_gray"
+        app:offColor="@color/common_white"
+        app:onColor="@color/common_light_blue"
+        app:spotColor="@color/common_white"
+        app:animate="true"/>
+
+</LinearLayout>
